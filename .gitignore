@@ -1,0 +1,34 @@
+# ---- 数据集（文件太大，不上传）----
+data/
+*.idx
+*.gz
+
+# ---- 模型权重 / 训练产物 ----
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+outputs/
+logs/
+runs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
